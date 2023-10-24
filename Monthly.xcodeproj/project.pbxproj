@@ -20,6 +20,7 @@
 		213762C12AE648D00029B31C /* MonthlyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 213762BD2AE648CE0029B31C /* MonthlyWidget.intentdefinition */; };
 		213762C22AE648D00029B31C /* MonthlyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 213762BD2AE648CE0029B31C /* MonthlyWidget.intentdefinition */; };
 		213762C52AE648D00029B31C /* MonthlyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 213762B02AE648CE0029B31C /* MonthlyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		213762D02AE7E0FE0029B31C /* MonthlyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213762CE2AE7DF5C0029B31C /* MonthlyConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		213762BD2AE648CE0029B31C /* MonthlyWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MonthlyWidget.intentdefinition; sourceTree = "<group>"; };
 		213762BE2AE648D00029B31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		213762C02AE648D00029B31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213762CE2AE7DF5C0029B31C /* MonthlyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				213762B72AE648CE0029B31C /* MonthlyWidgetBundle.swift */,
 				213762B92AE648CE0029B31C /* MonthlyWidgetLiveActivity.swift */,
 				213762BB2AE648CE0029B31C /* MonthlyWidget.swift */,
+				213762CE2AE7DF5C0029B31C /* MonthlyConfig.swift */,
 				213762BD2AE648CE0029B31C /* MonthlyWidget.intentdefinition */,
 				213762BE2AE648D00029B31C /* Assets.xcassets */,
 				213762C02AE648D00029B31C /* Info.plist */,
@@ -258,6 +261,7 @@
 				213762BA2AE648CE0029B31C /* MonthlyWidgetLiveActivity.swift in Sources */,
 				213762C12AE648D00029B31C /* MonthlyWidget.intentdefinition in Sources */,
 				213762B82AE648CE0029B31C /* MonthlyWidgetBundle.swift in Sources */,
+				213762D02AE7E0FE0029B31C /* MonthlyConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
